@@ -1,0 +1,191 @@
+:root{
+    --maincolor:#ff106e;
+    --bg-black: #000;
+}
+body{
+    background-image: url('../img/light_dot.jpg');
+    
+}
+
+.header{
+    background-image: url('../img/header/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.header .icon{
+    width: 18%;
+    margin-left: 1px;
+}
+
+.text-maincolor{
+    color: var(--maincolor);
+
+}
+
+.header .icon i{
+    border: 1px solid black;
+    transition: all 1s;
+    
+} 
+.header .icon i:hover{
+    border-color: white;
+    color: var(--maincolor);
+    
+}
+
+.header h1{
+    font-weight: 1000;
+    font-size: 60px;
+}
+
+.title h2{
+    color: #f1f1f1;
+    font-size: 5rem;
+}
+.title h3{
+font-size: 2.5rem;
+}
+.about{
+    padding: 50px;
+}
+.about img{
+    width: 100%;
+    height: 350px;
+}
+
+.navbar-dark .navbar-nav li:nth-child(1) a{
+    color: var(--maincolor);
+}
+
+.services{
+    background-image: url('../img/dark_dot.jpg');
+    
+}
+
+.services .title h2{
+    color: #222;
+    
+
+}
+.services .title h3{
+    color: #fff;
+
+}
+.services-item h4{
+    position: relative;
+    padding: 20px;
+
+}
+.services-item h4:after{
+    content: '';
+    background-color: var(--maincolor);
+    position: absolute;
+    transition: all .35s ease-in-out;
+    left: 35%;
+    right: 35%;
+    top: 67px;
+    height: 1px;
+    width: 25%;
+    
+} 
+
+.services-item{
+    position: relative;
+    padding: 40px;
+
+}
+
+.services-item i{
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #000;
+    -webkit-box-shadow: 0 3px 20px rgb(0 0 0 / 15%);
+    box-shadow: 0 3px 20px rgb(0 0 0 / 15%);
+    border: 2px solid #fff;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    padding: 17px 0;
+    width: 62px;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    transition: all .35s ease-in-out;
+
+}
+
+.services-item i:hover{
+    
+   color:var(--maincolor);  
+} 
+
+.services .pa{
+    color:gainsboro;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+color: var(--maincolor);
+background-color: transparent;
+}
+.nav-tabs .nav-link{
+border: 0;
+color: #000;
+font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+      background-image: url('../img/portfolio/an.jpeg');
+    }
+  }
+
+
+  .contact{
+    background-color: #000;
+    
+}
+.contact .title h2{
+    color: #222;
+    font-size: 80px;
+   flex-wrap: nowrap;
+    
+
+}
+.contact .title h3{
+    color: #fff;
+    font-size: 40px;
+
+}
+.contact  .contact-item p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 19px;
+
+}
+.contact  h5{
+    color: var(--maincolor);
+
+}
+
+.contact .pa{
+    color:gainsboro;
+}
+
+
+
+.form-control{
+    border: none;
+    border-bottom: 1px solid #888;
+}
+
+.btn{
+    border-radius: 0;
+    padding: 0.5rem 1rem;
+}
+.footer {
+    background-color: #fff;
+    padding: 1.5rem 0;
+}
